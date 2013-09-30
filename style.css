@@ -1,0 +1,193 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	text-align: center;
+	font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #000;
+	background: #EDEDED;
+}
+h1,h2,h3,h4,h5,h6 {
+	color: #333;
+}
+h1 {
+	margin-bottom: 20px;
+	text-align: center;
+	width: 100%;
+	padding: 20px 0;
+}
+h2 {
+	font-size: 28px;
+}
+#container {
+	margin: 0 auto;
+	width: 980px;
+	height: 100%;
+}
+#container.content {
+	background: #FFF;
+	padding: 0 20px 20px 20px;
+	text-align: left;
+}
+.clear:after {
+	content: " ";
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+
+/* LOGIN PAGE...and edit page fields */
+#login-box {
+	width: 50%;
+	background: #FFF;
+	padding: 15px;
+	margin: 200px auto 0 auto;
+}
+#login-box label {
+	display: inline-block;
+	width: 120px;
+}
+#login-box p {
+	margin-bottom: 15px;
+}
+#login-box #submitButton {
+	margin-left: 26.5%;
+	width: 123px;
+}
+.error {
+	background: #FCC;
+	padding: 15px;
+	margin-top: 20px;
+}
+.success {
+	background: #CFC;
+	padding: 15px;
+	margin-top: 20px;
+}
+
+/* NAVIGATION */
+nav {
+	width: 980px;
+	margin: 0 auto;
+	background: #333;
+	color: #FFF;
+	height: 40px;
+}
+nav a {
+	display: block;
+	float: left;
+	height: 40px;
+	width: 20%;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #FFF;
+	text-decoration: none;
+}
+nav a:hover {
+	background: #000;
+}
+
+/* GENERAL STRUCTURE */
+.column {
+	float: left;
+	height: 100%;
+	width: 50%;
+}
+
+.stats {
+	font-size: 20px;
+}
+
+/* IMPORT PAGE */
+.import-status {
+	display: block;
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+/* MANAGE PAGE */
+#manage-tools {
+	margin: 10px 0;
+}
+#manage-tools:after {
+	content: " ";
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+#manage-tools .show-stores {
+	float: right;
+}
+table.db-table {
+	width: 100%;
+}
+table.db-table tr td {
+	padding: 15px 10px;
+}
+table.db-table tr:nth-child(2n) {
+	background: #EDEDED;
+}
+table.db-table tr td.db-col1 {
+	width: 3%;
+}
+table.db-table tr td.db-col2, table.db-table tr td.db-col3 {
+	width: 45%;
+}
+table.db-table tr td.db-col4 {
+	width: 2%;
+}
+table.db-table tr td.db-col5 {
+	width: 5%;
+}
+
+/* EDIT PAGE */
+#edit-store * {
+	font-size: 18px;
+}
+#edit-store label {
+	display: inline-block;
+	width: 160px;
+}
+#edit-store p {
+	line-height: 60px;
+}
+#edit-store input[type=text], #edit-store input[type=email] {
+	padding: 5px;
+	width: 300px;
+}
+
+/* ANCHORS */
+a:link, a:active, a:visited, a:hover {
+	text-decoration: none;
+}
+
+.small {
+	background: #333;
+	color: #FFF;
+	padding: 6px 12px;
+	text-transform: uppercase;
+	display: inline-block;
+	width: 180px;
+	text-align: center;
+	border: none;
+	margin-top: -6px;
+}
+.medium {
+	background: #333;
+	color: #FFF;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	margin-top: 15px;
+	display: inline-block;
+	width: 180px;
+	text-align: center;
+	border: none;
+}
+.button:hover, input [type=submit] {
+	background: #000;
+	cursor: pointer;
+}
